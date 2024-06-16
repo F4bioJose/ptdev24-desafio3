@@ -25,7 +25,7 @@ async function readFile() {
 async function showWordsCount() {
     try {
         const numWords = await readFile();
-        console.log(`Total de ${numWords} palavras presentes no texto`)
+        console.log('Total de palavras presentes no texto:', numWords)
     }
     catch(err){
         console.log(err)
